@@ -1,0 +1,36 @@
+{
+  "name": "node-go2js",
+  "version": "0.0.1",
+  "description": "Golang to Mozilla AST Tree via go2js",
+  "main": "erlang.js",
+  "scripts": {
+    "test": "mocha test/test.js --require should --reporter=nyan --ui bdd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ttback/node-go2js"
+  },
+  "keywords": [
+    "golang",
+    "go2js",
+    "js",
+    "ast",
+    "mozilla"
+  ],
+  "author": "Tim Xia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ttback/node-go2js/issues"
+  },
+  "homepage": "https://github.com/ttback/node-go2js",
+  "dependencies": {
+    "esprima": "^1.2.1",
+    "commander": "^2.2.0",
+    "exec": "^0.1.1",
+    "mv": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "should": "^3.3.1"
+  }
+}
