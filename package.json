@@ -1,8 +1,8 @@
 {
   "name": "node-go2js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Golang to Mozilla AST Tree via go2js",
-  "main": "erlang.js",
+  "main": "go.js",
   "scripts": {
     "test": "mocha test/test.js --require should --reporter=nyan --ui bdd"
   },
@@ -27,7 +27,8 @@
     "esprima": "^1.2.1",
     "commander": "^2.2.0",
     "exec": "^0.1.1",
-    "mv": "^2.0.0"
+    "mv": "^2.0.0",
+    "tmp": "0.0.23"
   },
   "devDependencies": {
     "mocha": "^1.18.2",
