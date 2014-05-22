@@ -1,4 +1,4 @@
-Golang to Mozilla AST Tree Parse Transform
+Golang to Mozilla AST Tree Parse Transform [![Deps](https://david-dm.org/ttback/node-go2js.png)](https://david-dm.org/ttback/node-go2js)
 =================================
 
 Goal:
@@ -53,7 +53,8 @@ Usage:
 Install
 ---------
 
-Run `npm install node-go2js -g`
+
+[![npm](https://nodei.co/npm/node-go2js.png)](https://npmjs.org/package/node-go2js)
 
 
 Not implemented
