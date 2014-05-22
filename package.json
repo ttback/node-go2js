@@ -28,7 +28,8 @@
     "commander": "^2.2.0",
     "exec": "^0.1.1",
     "mv": "^2.0.0",
-    "tmp": "0.0.23"
+    "tmp": "0.0.23",
+    "longjohn": "^0.2.4"
   },
   "devDependencies": {
     "mocha": "^1.18.2",
