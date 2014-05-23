@@ -5,6 +5,11 @@ Goal:
 ---------
 Make Golang usable for online editors and live code teaching platforms like Code School and Code Combat.
 
+Install
+---------
+
+[![npm](https://nodei.co/npm/node-go2js.png)](https://npmjs.org/package/node-go2js)
+
 
 Prerequisites:
 ---------
@@ -48,13 +53,6 @@ Usage:
     -V, --version        Output the version number
     -t, --ast            Output JS ast tree
     -o, --output <file>  Output to a JS file to custom location
-
-
-Install
----------
-
-
-[![npm](https://nodei.co/npm/node-go2js.png)](https://npmjs.org/package/node-go2js)
 
 
 Not implemented
