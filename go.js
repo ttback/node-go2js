@@ -52,6 +52,7 @@ function wrap(code, imports, callback) {
 
     var wrap_prefix = wrap_stmts.join("\n");
     var wrapped_code = wrap_prefix + '\nfunc main(){\n' + code + '}';
+    var num_of_wrap_lines = imports.length+wrap_stmts.length+1;
     _parseCode(wrapped_code, function(ast) {
         if (!ast) {
             callback(new Error("No ast tree was generated"));
