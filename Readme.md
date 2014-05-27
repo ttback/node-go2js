@@ -46,7 +46,9 @@ Usage:
   });
   
   ```
-
+  
+  If installed globally with `npm install -g node-go2js`, you can use `go2js` command anywhere from your system.
+  
   Commandline Options:
 
     -h, --help           Output usage information
