@@ -6,6 +6,9 @@
   "scripts": {
     "test": "mocha test/test.js --require should --reporter=nyan --ui bdd"
   },
+  "bin": {
+    "go2js": "go.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ttback/node-go2js"
