@@ -150,7 +150,7 @@ function parseFile(source_file_path, callback) {
                                     }
                                 }
                                 var jsCode = data;
-                                var ast = esprima.parse(jsCode, {
+                                var ast = esprima.parse(jsCode.toString('utf8'), {
                                     loc: true
                                 });
 

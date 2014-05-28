@@ -19,6 +19,15 @@ describe('node-go2js', function() {
                 done();
             });
         });
+
+        it('Wrap test with 3+3', function(done) {
+            code = '3+3';
+            go2js.wrap(code, function(ast) {
+                ast.should.be.ok;
+                ast["body"].length.should.greaterThan(0, "AST body shouldn't be empty");
+                done();
+            });
+        });
     });
 
     describe('#parse()', function() {
